@@ -3,7 +3,7 @@ const navbar = function () {
   const button = document.getElementById("primoBottone");
 
   window.addEventListener("scroll", function () {
-    var scrollPosition = window.scrollY;
+    const scrollPosition = window.scrollY;
 
     if (scrollPosition < 300) {
       nav.classList.add("navcolorye");
@@ -20,3 +20,18 @@ const navbar = function () {
 };
 
 navbar();
+
+// const aside = function () {
+//   const aside = document.getElementsByTagName("aside")[0];
+
+//   window.addEventListener("scroll", function () {
+//     const scrollPosition = window.scrollY;
+
+//     if (scrollPosition > 400) {
+//       aside.classList.add("asideFissa");
+//     } else {
+//       aside.classList.remove("asideFissa");
+//     }
+//   });
+// };
+// aside();

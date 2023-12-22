@@ -88,14 +88,14 @@ header {
 
 header h1 {
   font-family: "Spectral", serif;
-  font-size: 8em;
+  font-size: 7em;
   margin-bottom: 0.2em;
   margin-top: 0.5em;
   font-weight: 500;
 }
 
 header h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 1em;
   font-weight: 500;
 }
@@ -259,7 +259,7 @@ aside {
 
 .asideFissa {
   position: fixed;
-  z-index: 1;
+  top: 0;
 }
 
 /* primo blocco aside */
