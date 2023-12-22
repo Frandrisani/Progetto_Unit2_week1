@@ -52,6 +52,7 @@ nav li {
   text-decoration: none;
   border: none;
   padding: 0.8em 1.3em;
+  transition: background-color 1s ease;
 }
 
 .scroll {
@@ -62,14 +63,17 @@ nav li {
   text-decoration: none;
   border: none;
   padding: 0.8em 1.3em;
+  transition: background-color 1s ease;
 }
 
 .navcolorye {
   background-color: #ffc017;
+  transition: background-color 1s ease;
 }
 
 .navcolorwh {
   background-color: #ffffff;
+  transition: background-color 1s ease;
 }
 
 /* ///////////////////////////////////////////////HEADER///////////////////////////////////////////////// */
@@ -253,6 +257,11 @@ aside {
   width: 88vh;
 }
 
+.asideFissa {
+  position: fixed;
+  z-index: 1;
+}
+
 /* primo blocco aside */
 main > aside > div:nth-child(1) {
   display: flex;
@@ -278,6 +287,7 @@ main > aside > div:nth-child(1) > div > button {
   text-decoration: none;
   background-color: rgb(221, 221, 221);
   opacity: 0.9;
+  border: none;
   margin: 0.2em 0.5em;
 }
 
@@ -300,7 +310,7 @@ main > aside > div:nth-child(2) > ul > li > a {
 
 /* ///////////////////////////////////////////////SECTION 2///////////////////////////////////////////////// */
 main > section {
-  width: 221vh;
+  width: 184vh;
 }
 
 /* articolo completo */
@@ -369,4 +379,15 @@ main > section > article > div:nth-child(2) > h5 {
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
+}
+
+.b > button {
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 0.3em;
+  text-decoration: none;
+  background-color: rgb(241, 239, 239);
+  opacity: 1;
+  margin: 0.2em 0.5em;
+  border: none;
 }

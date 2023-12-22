@@ -1,5 +1,5 @@
 const navbar = function () {
-  const nav = document.querySelector("nav"); // Usa querySelector invece di getElementsByTagName
+  const nav = document.querySelector("nav");
   const button = document.getElementById("primoBottone");
 
   window.addEventListener("scroll", function () {
