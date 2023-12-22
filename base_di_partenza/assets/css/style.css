@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Spectral:wght@200;300;400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* ////////////////////////////////////////////////////////NAVBAR////////////////////////////////////////////// */
+nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 1;
+}
+
+nav > div:nth-child(1) {
+  margin: 0 10em;
+}
+
+nav > div:nth-child(2) {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10em;
+}
+nav > div:nth-child(2) > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2em;
+}
+
+nav li {
+  margin: 0 0.6em;
+}
+
+.getStarted {
+  background-color: black;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  padding: 0.8em 1.3em;
+}
+
+.scroll {
+  background-color: rgb(91, 202, 0);
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  border: none;
+  padding: 0.8em 1.3em;
+}
+
+.navcolorye {
+  background-color: #ffc017;
+}
+
+.navcolorwh {
+  background-color: #ffffff;
+}
+
+/* ///////////////////////////////////////////////HEADER///////////////////////////////////////////////// */
+header {
+  background-color: #ffc017;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 7em;
+}
+
+header h1 {
+  font-family: "Spectral", serif;
+  font-size: 8em;
+  margin-bottom: 0.2em;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+
+header h3 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+
+header > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  margin-left: 10em;
+}
+
+header button {
+  background-color: black;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  border: none;
+  padding: 0.8em 4.3em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+/* ///////////////////////////////////////////////SECTION 1///////////////////////////////////////////////// */
+body > section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 3em;
+}
+
+body > section > div:nth-child(1) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6em;
+}
+
+body > section > div:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid grey;
+  margin-top: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+body > section > div:nth-child(2) > article {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin-bottom: 1em;
+  width: 30%;
+}
+
+/* blocco articolo (img+titolo+data) */
+body > section > div:nth-child(2) > article > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(3) {
+  display: flex;
+  margin-top: 0.5em;
+  align-items: center;
+}
+
+/* numero sul lato */
+body > section > div:nth-child(2) > article > div:nth-child(1) > p {
+  font-size: 2em;
+  color: rgb(163, 163, 163);
+  opacity: 0.2;
+  font-weight: 700;
+}
+
+/* titolo articolo */
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(2)
+  > p {
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+}
+
+/* nome utente */
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > p {
+  font-size: 0.8em;
+  color: rgb(0, 0, 0);
+  margin-left: 0.5em;
+  font-weight: 500;
+}
+
+/*img utente */
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(1)
+  > img {
+  width: 20px;
+  border-radius: 10px;
+}
+
+/*img utente */
+body
+  > section
+  > div:nth-child(2)
+  > article
+  > div:nth-child(2)
+  > div:nth-child(3)
+  > p {
+  font-size: 0.8em;
+  margin-right: 1em;
+  color: rgb(150, 147, 147);
+  font-weight: 400;
+}
+
+/* ///////////////////////////////////////////////MAIN///////////////////////////////////////////////// */
+main {
+  margin-top: 5em;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+/* ///////////////////////////////////////////////ASAID///////////////////////////////////////////////// */
+aside {
+  width: 88vh;
+}
+
+/* primo blocco aside */
+main > aside > div:nth-child(1) {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid grey;
+}
+main > aside > div:nth-child(1) > p {
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+main > aside > div:nth-child(1) > a {
+  text-decoration: none;
+  color: green;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+main > aside > div:nth-child(1) > div > button {
+  border-radius: 30px;
+  font-size: 13px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  background-color: rgb(221, 221, 221);
+  opacity: 0.9;
+  margin: 0.2em 0.5em;
+}
+
+/* secondo blocco aside */
+main > aside > div:nth-child(2) {
+  margin-top: 1em;
+}
+main > aside > div:nth-child(2) > ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main > aside > div:nth-child(2) > ul > li {
+  margin: 0.3em 1em;
+}
+main > aside > div:nth-child(2) > ul > li > a {
+  color: grey;
+  text-decoration: none;
+}
+
+/* ///////////////////////////////////////////////SECTION 2///////////////////////////////////////////////// */
+main > section {
+  width: 221vh;
+}
+
+/* articolo completo */
+main > section > article {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-bottom: 3em;
+  justify-content: space-between;
+}
+
+/* immagine */
+main > section > article > div:nth-child(1) > img {
+  width: 200px;
+}
+main > section > article > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+
+/* nome utente */
+main > section > article > div:nth-child(2) > div:nth-child(1) {
+  margin-bottom: 0.7em;
+}
+
+/* immagine */
+main > section > article > div:nth-child(2) > div:nth-child(1) > img {
+  width: 20px;
+  border-radius: 30px;
+}
+/* nome utente */
+main > section > article > div:nth-child(2) > div:nth-child(1) > a {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+main > section > article > div:nth-child(2) > h4 {
+  color: rgb(36, 36, 36);
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 0.3em;
+}
+main > section > article > div:nth-child(2) > h5 {
+  color: rgb(77, 77, 77);
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 0.3em;
+}
+
+.a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.b {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
